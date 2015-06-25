@@ -6,10 +6,10 @@ def findsquares(b):
         answer = answer + 1
     return answer
 
-
-a = int(input())
-for i in range(a):
-    b = input()
-    b = b.strip().split(" ")
-    b = [int(i) for i in b]
-    print(findsquares(b))
+if __name__ == '__main__':
+    a = int(input())
+    for i in range(a):
+        b = input()
+        b = b.strip().split(" ")
+        b = [int(i) for i in b]
+        print(findsquares(b))
