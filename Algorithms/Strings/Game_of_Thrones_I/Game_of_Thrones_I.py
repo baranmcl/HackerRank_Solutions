@@ -15,5 +15,6 @@ def palindromecheck(x):
     else:
         return "NO"
 
-a = str(input())
-print(palindromecheck(a))
+if __name__ == '__main__':
+    a = str(input())
+    print(palindromecheck(a))
